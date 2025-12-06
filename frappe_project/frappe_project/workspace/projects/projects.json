@@ -1,0 +1,55 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"sq5kwjJWKZ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Projects</span>\",\"col\":12}},{\"id\":\"9Z8F7A6xoK\",\"type\":\"card\",\"data\":{\"card_name\":\"Projects\",\"col\":4}},{\"id\":\"OsvymiqOrA\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Todo\",\"col\":4}}]",
+ "creation": "2025-12-06 12:19:32.876814",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "clipboard",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Projects",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project",
+   "link_count": 0,
+   "link_to": "Project",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-07 12:36:41.571471",
+ "modified_by": "Administrator",
+ "module": "Frappe Project",
+ "name": "Projects",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "ToDo",
+   "label": "Todo",
+   "quick_list_filter": "[[\"ToDo\",\"custom_project\",\"not like\",null,false]]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "Projects"
+}

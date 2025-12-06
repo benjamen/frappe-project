@@ -5,6 +5,11 @@ app_description = "Project Management"
 app_email = "contact@optified.nz"
 app_license = "mit"
 
+
+
+# In frappe_project/hooks.py
+
+# ... other hooks (like fixtures = ["Custom Field"]) ...
 # Apps
 # ------------------
 
@@ -243,5 +248,19 @@ app_license = "mit"
 # }
 
 fixtures = [
-    "Custom Field"
+    {
+        "doctype": "Client Script",
+        "filters": [["module", "=", "frappe_project"]]
+    },
+    {
+        "doctype": "Workspace",
+        "filters": [["module", "=", "frappe_project"]]
+    },
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            ["dt", "=", "ToDo"],
+            ["fieldname", "=", "custom_project"]
+        ]
+    }
 ]

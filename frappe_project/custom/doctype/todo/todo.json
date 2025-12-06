@@ -1,0 +1,10 @@
+[
+  {
+    "fieldname": "project",
+    "label": "Project",
+    "fieldtype": "Link",
+    "options": "Project",
+    "insert_after": "priority",
+    "description": "Links the ToDo to a custom Project document from frappe_project."
+  }
+]
