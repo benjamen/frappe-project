@@ -243,24 +243,14 @@ app_license = "mit"
 # Automatically update python controller files with type annotations for this app.
 # export_python_type_annotations = True
 
+
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
-# }
 
 fixtures = [
-    {
-        "doctype": "Client Script",
-        "filters": [["module", "=", "frappe_project"]]
-    },
-    {
-        "doctype": "Workspace",
-        "filters": [["module", "=", "frappe_project"]]
-    },
-    {
-        "doctype": "Custom Field",
-        "filters": [
-            ["dt", "=", "ToDo"],
-            ["fieldname", "=", "custom_project"]
-        ]
-    }
+    {"doctype": "Client Script", "filters": [["module", "=", "frappe_project"]]},
+    {"doctype": "Custom Field", "filters": [["dt", "=", "ToDo"], ["fieldname", "=", "custom_project"]]},
+    {"doctype": "Workspace", "filters": [["module", "=", "frappe_project"]]},
+    {"doctype": "Number Card", "filters": [["module", "=", "frappe_project"]]},
+    {"doctype": "Dashboard", "filters": [["module", "=", "frappe_project"]]},
 ]
