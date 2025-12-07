@@ -247,10 +247,43 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 
+# Client JS on Project form
+doctype_js = {
+    "Project": "public/js/project_tasks.js",
+}
+
+
+# Fixtures: custom field + workspace (and related cards/charts)
 fixtures = [
-    {"doctype": "Client Script", "filters": [["module", "=", "frappe_project"]]},
-    {"doctype": "Custom Field", "filters": [["dt", "=", "ToDo"], ["fieldname", "=", "custom_project"]]},
-    {"doctype": "Workspace", "filters": [["module", "=", "frappe_project"]]},
-    {"doctype": "Number Card", "filters": [["module", "=", "frappe_project"]]},
-    {"doctype": "Dashboard", "filters": [["module", "=", "frappe_project"]]},
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            ["dt", "=", "ToDo"],
+            ["fieldname", "=", "custom_project"],
+        ],
+    },
+    {
+        "doctype": "Workspace",
+        "filters": [
+            ["module", "=", "Frappe Project"],
+        ],
+    },
+    {
+        "doctype": "Number Card",
+        "filters": [
+            ["module", "=", "Frappe Project"],
+        ],
+    },
+    {
+        "doctype": "Dashboard",
+        "filters": [
+            ["module", "=", "Frappe Project"],
+        ],
+    },
+    {
+        "doctype": "Client Script",
+        "filters": [
+            ["dt", "=", "Project"],
+        ],
+    },
 ]
