@@ -1,1 +1,65 @@
-[]
+[
+ {
+  "charts": [
+   {
+    "chart_name": "Tasks Created vs Completed",
+    "label": "Tasks Created vs Completed",
+    "parent": "Projects",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Tasks Created - Projects",
+    "label": "Tasks Created - Projects",
+    "parent": "Projects",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "content": "[{\"id\":\"X9QNemFm7K\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Projects</span>\",\"col\":12}},{\"id\":\"ljRKpcQHUQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Projects\",\"col\":4}},{\"id\":\"vp9PXvLUEr\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Overdue Tasks\",\"col\":4}},{\"id\":\"rZcxn0HARy\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Tasks\",\"col\":4}},{\"id\":\"fRKd7RMyaW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Tasks Created vs Completed\",\"col\":12}},{\"id\":\"HscQQCMiYH\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Tasks Created - Projects\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "milestone",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Projects",
+  "links": [],
+  "modified": "2025-12-07 17:32:57.698155",
+  "module": "Frappe Project",
+  "name": "Projects",
+  "number_cards": [
+   {
+    "label": "Overdue Tasks",
+    "number_card_name": "Overdue Tasks",
+    "parent": "Projects",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Open Projects",
+    "number_card_name": "Open Projects",
+    "parent": "Projects",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Active Tasks",
+    "number_card_name": "Active Tasks",
+    "parent": "Projects",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 2.0,
+  "shortcuts": [],
+  "title": "Projects"
+ }
+]
