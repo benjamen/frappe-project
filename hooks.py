@@ -7,10 +7,6 @@ app_license = "MIT"
 
 fixtures = [
     {
-        "doctype": "Custom Field",
-        "filters": [["dt", "=", "ToDo"], ["fieldname", "=", "custom_project"]],
-    },
-    {
         "doctype": "Workspace",
         "filters": [["module", "=", "Frappe Project"]],
     },
