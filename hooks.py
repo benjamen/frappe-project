@@ -25,4 +25,12 @@ fixtures = [
 ]
 
 
-app_include_js = ["assets/frappe_project/project_tasks.js"]
+app_include_js = [
+    "assets/frappe_project/project_tasks.js",
+    "assets/frappe_project/frappe-gantt.umd.js"
+]
+
+app_include_css = [
+    "assets/frappe_project/frappe-gantt.css"
+]
+
