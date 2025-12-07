@@ -17,9 +17,11 @@ Keep projects, tasks, and delivery dates in one clean, minimal workspace.
 ## 🚀 Quick start
 
 Get the app
+
 bench get-app https://github.com/benjamen/frappe-project.git
 
 Install on your site
+
 bench --site [your-site-name] install-app frappe_project
 
 
