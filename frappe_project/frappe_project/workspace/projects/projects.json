@@ -1,15 +1,11 @@
 {
  "charts": [
   {
-   "chart_name": "Tasks Created vs Completed",
-   "label": "Tasks Created vs Completed"
-  },
-  {
    "chart_name": "Tasks Created - Projects",
    "label": "Tasks Created - Projects"
   }
  ],
- "content": "[{\"id\":\"X9QNemFm7K\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Projects</span>\",\"col\":12}},{\"id\":\"ljRKpcQHUQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Projects\",\"col\":4}},{\"id\":\"vp9PXvLUEr\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Overdue Tasks\",\"col\":4}},{\"id\":\"rZcxn0HARy\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Tasks\",\"col\":4}},{\"id\":\"fRKd7RMyaW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Tasks Created vs Completed\",\"col\":12}},{\"id\":\"HscQQCMiYH\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Tasks Created - Projects\",\"col\":12}}]",
+ "content": "[{\"id\":\"X9QNemFm7K\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Projects</span>\",\"col\":12}},{\"id\":\"ljRKpcQHUQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Projects\",\"col\":4}},{\"id\":\"vp9PXvLUEr\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Overdue Tasks\",\"col\":4}},{\"id\":\"rZcxn0HARy\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Tasks\",\"col\":4}},{\"id\":\"HscQQCMiYH\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Tasks Created - Projects\",\"col\":12}}]",
  "creation": "2025-12-07 16:38:47.407592",
  "custom_blocks": [],
  "docstatus": 0,
@@ -22,7 +18,7 @@
  "is_hidden": 0,
  "label": "Projects",
  "links": [],
- "modified": "2025-12-07 17:32:57.698155",
+ "modified": "2025-12-07 18:24:52.339073",
  "modified_by": "Administrator",
  "module": "Frappe Project",
  "name": "Projects",
