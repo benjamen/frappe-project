@@ -1,0 +1,21 @@
+{
+ "creation": "2025-12-07 14:14:06.604127",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "ToDo",
+ "filters_json": "[[\"ToDo\",\"status\",\"=\",\"Open\"],[\"ToDo\",\"date\",\"<\",\"2025-12-07\"]]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Overdue Tasks",
+ "modified": "2025-12-07 18:23:46.779166",
+ "modified_by": "Administrator",
+ "module": "Frappe Project",
+ "name": "Overdue Tasks",
+ "owner": "Administrator",
+ "report_function": "Sum",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}

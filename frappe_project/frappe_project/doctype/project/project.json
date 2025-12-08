@@ -10,7 +10,9 @@
   "start_date",
   "end_date",
   "section_break_vsdv",
-  "todo_section"
+  "todo_section",
+  "gantt",
+  "gantt_html"
  ],
  "fields": [
   {
@@ -49,11 +51,21 @@
   {
    "fieldname": "section_break_vsdv",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gantt",
+   "fieldtype": "Tab Break",
+   "label": "Gantt"
+  },
+  {
+   "fieldname": "gantt_html",
+   "fieldtype": "HTML",
+   "label": "Gantt"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-07 12:34:18.036868",
+ "modified": "2025-12-08 12:22:45.024622",
  "modified_by": "Administrator",
  "module": "Frappe Project",
  "name": "Project",

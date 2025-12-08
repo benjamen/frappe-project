@@ -1,0 +1,1 @@
+frappe_project.patches.v1_create_projects_workspace
